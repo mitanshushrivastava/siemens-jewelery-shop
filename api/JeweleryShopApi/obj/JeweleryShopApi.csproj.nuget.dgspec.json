@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/mitanshu/siemens/jewelery-store/api/JeweleryShopApi/JeweleryShopApi.csproj": {}
+  },
+  "projects": {
+    "/home/mitanshu/siemens/jewelery-store/api/JeweleryShopApi/JeweleryShopApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mitanshu/siemens/jewelery-store/api/JeweleryShopApi/JeweleryShopApi.csproj",
+        "projectName": "JeweleryShopApi",
+        "projectPath": "/home/mitanshu/siemens/jewelery-store/api/JeweleryShopApi/JeweleryShopApi.csproj",
+        "packagesPath": "/home/mitanshu/.nuget/packages/",
+        "outputPath": "/home/mitanshu/siemens/jewelery-store/api/JeweleryShopApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mitanshu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.0-preview.5.21301.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "Syncfusion.Pdf.Net.Core": {
+              "target": "Package",
+              "version": "[19.2.0.44, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.11.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
